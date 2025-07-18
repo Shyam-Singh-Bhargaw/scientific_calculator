@@ -74,6 +74,6 @@ elif mode == "Matrix":
         st.error(f"Matrix Error: {e}")
 
 # ---------- HISTORY ----------
-st.write("### 🧾 Last 10 Calculations")
+st.write("### 🧾 History")
 for item in st.session_state.history[:10]:
     st.code(item)
